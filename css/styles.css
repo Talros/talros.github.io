@@ -97,11 +97,12 @@ a:hover { color: #7299cf; }
 .contentblock {
   display: block;
   padding: 10px 15px;
-  font-size: 1.1em;
-  line-height: 1.1em;
+  font-size: 1.3em;
+  line-height: 1.3em;
   color: #818181;
   font-weight: normal;
-  margin-bottom: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 5px;
 }
 
 .contentblock.hidden {
@@ -130,12 +131,14 @@ a:hover { color: #7299cf; }
   margin-left: 4px;
   margin-right: 4px;
   margin-bottom: 6px;
+  margin-top: 6px;
 }
 
 .tooltext {
-  font-size: 1.5em;
-  top: 40%;
-  padding-left: 14px;
+  font-size: 1.4em;
+  top: 33%;
+
+  padding-left: 10px;
   position: absolute;
 }
 
