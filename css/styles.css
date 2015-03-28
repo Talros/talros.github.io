@@ -56,8 +56,8 @@ h1 {
 
 h2 {
   font-family: "Cantora One", Arial, sans-serif;
-  font-size: 2.2em;
-  line-height: 1.6em;
+  font-size: 1.6em;
+  line-height: 1.3em;
   margin-bottom: 8px;
   color: #A1A1A1;
 }
@@ -88,6 +88,10 @@ a:hover { color: #7299cf; }
   padding: 0px 10px;
   margin-left: 120px;
   min-height: 650px;
+}
+
+#pindent {
+  margin-left: 30px;
 }
 
 .footnote {
