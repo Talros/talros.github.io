@@ -21,7 +21,7 @@ body {
   line-height: 1;
   padding: 10px 20px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: #3C3C3C;
+  background: #313131;
 }
 
 br { display: block; line-height: 1.6em; }
@@ -51,7 +51,7 @@ h1 {
   font-size: 3.0em;
   line-height: 1.6em;
   margin-bottom: 10px;
-  color: #A1A1A1;
+  color: #B1B1B1;
 }
 
 h2 {
@@ -59,7 +59,7 @@ h2 {
   font-size: 1.6em;
   line-height: 1.3em;
   margin-bottom: 8px;
-  color: #A1A1A1;
+  color: #B1B1B1;
 }
 
 .lairname {
@@ -69,13 +69,13 @@ h2 {
   margin-bottom: 6px;
   position: absolute;
   top: 24px;
-  color: #A1A1A1;
+  color: #B1B1B1;
 }
 
 p {
   font-size: 1.4em;
   line-height: 1.25em;
-  color: #818181;
+  color: #919191;
   font-weight: normal;
   margin-bottom: 10px;
 }
@@ -94,7 +94,7 @@ a:hover { color: #7299cf; }
 
 #content {
   display: block;
-  background: #3C3C3C;
+  background: #313131;
   padding: 0px 10px;
   margin-left: 120px;
   min-height: 650px;
@@ -113,7 +113,7 @@ a:hover { color: #7299cf; }
   padding: 10px 15px;
   font-size: 1.3em;
   line-height: 1.3em;
-  color: #818181;
+  color: #919191;
   font-weight: normal;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 5px;
@@ -161,7 +161,8 @@ a:hover { color: #7299cf; }
 #sideheading {
   padding-top: 3px;
   padding-bottom: 3px;
-  background: #616161;
+  background: #4C4C63;
+  color: #A1A1A1;
 }
 #sideheading strong {
   font-size: 1.3em;
@@ -186,7 +187,7 @@ a:hover { color: #7299cf; }
 #sidemenu li a {
   display: block;
   padding: 5px 2px;
-  color: #595959;
+  color: #A1A1A1;
   text-decoration: none;
   border-bottom: 1px solid #595959;
 
@@ -198,7 +199,7 @@ a:hover { color: #7299cf; }
 #sidemenu li a strong {
   display: block;
   margin-top: 5px;
-  color: #818181;
+  color: #A1A1A1;
 }
 
 #sidemenu li a.open {
@@ -223,9 +224,10 @@ a:hover { color: #7299cf; }
   font-family:Arial, sans-serif;
   font-size:12px;
   padding:5px 4px;
-  border-style:solid;
+  border-bottom-style:solid;
+  border-right-style:solid;
   border-width:1px;
-  border-color: #ffffff;
+  border-color: #777777;
   vertical-align: middle;
   overflow:hidden;
   word-break:normal;
@@ -235,19 +237,21 @@ a:hover { color: #7299cf; }
   font-family:Arial, sans-serif;
   font-size:12px;
   padding:5px 4px;
-  border-style:solid;
+  border-bottom-style:solid;
+  border-right-style:solid;
+  border-left-style:solid;
   border-width:1px;
   overflow:hidden;
   word-break:normal;
 }
 
 .tg .oddrow {
-  background-color:#656565;
+  background-color:#515151;
   text-align:center;
 }
 
 .tg .evenrow {
-  background-color:#7b7b7b;
+  background-color:#656565;
   text-align:center;
 }
 
