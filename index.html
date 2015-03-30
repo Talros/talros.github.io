@@ -6,7 +6,8 @@
   <title>Legends of Kesmai Info Database</title>
   <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
   <link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css">
-  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
@@ -118,8 +119,15 @@
 
         <div id="exp-content" class="contentblock hidden">
           <h1>Experience & Stats Chart</h1>
-          <p>
-<table class="tg">
+<table class="tg" id="highlight-table">
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <thead>
 <tr class="oddrow td">
   <th colspan="2"></th>
   <th colspan="2">Fighter</th>
@@ -129,6 +137,8 @@
   <th colspan="3">Wizard</th>
   <th colspan="3">Thief</th>
 </tr>
+</thead>
+<tbody>
 <tr class="evenrow">
   <td class="tg-cnjn">Level</td>
   <td class="tg-zk2o">Experience</td>
@@ -709,20 +719,21 @@
   <td class="tg-cnjn">281</td>
   <td class="tg-zk2o">143</td>
 </tr>
+</tbody>
 </table>
-          </p>
-          <p>
-            <div class="footnote contentblock">
-              <span class="warning">STR and DEX must be 15 at character creation to receive combat adds!</span><br/>
-            </div>
-          </p>
+
+
+        <div class="footnote contentblock">
+          <span class="warning">STR and DEX must be 15 at character creation to receive combat adds!</span><br/>
+        </div>
+
         </div><!-- @end #exp-content -->
 
         <div id="charcreationguide-content" class="contentblock hidden">
           <p>
             <h1>Character Creation Guide</h1>
             <div class="contenttable">
-            <table class="tg">
+            <table class="tg" >
   <tr class="oddrow">
     <th class="tg-76hz"></th>
     <th class="tg-76hz"></th>
@@ -822,7 +833,7 @@
 
             <div class="contenttable">
 
-<table class="tg">
+<table class="tg" id="highlight-table">
   <tr class="oddrow">
     <th class="tg-031e">Level</th>
     <th class="tg-031e">Weapon</th>
@@ -1070,7 +1081,7 @@
           <h1>Training Cost & Skill Gains</h1>
           <p>
           <div class="contenttable">
-            <table class="tg">
+            <table class="tg" id="highlight-table">
   <tr class="oddrow">
     <th class="tg-031e">Level</th>
     <th class="tg-031e">Swings/Mana w/o Training</th>
@@ -1962,28 +1973,6 @@ fight &ltname of target&gt   hold down the shift key for friendly fire</p>
 
     </div><!-- @end #content -->
   </div><!-- @end #w -->
-<script type="text/javascript">
-$(function(){
-  $('#sidemenu a').on('click', function(e){
-    e.preventDefault();
 
-    if($(this).hasClass('open')) {
-      // do nothing because the link is already open
-    } else {
-      var oldcontent = $('#sidemenu a.open').attr('href');
-      var newcontent = $(this).attr('href');
-
-      $(oldcontent).fadeOut('fast', function(){
-        $(newcontent).fadeIn().removeClass('hidden');
-        $(oldcontent).addClass('hidden');
-      });
-
-
-      $('#sidemenu a').removeClass('open');
-      $(this).addClass('open');
-    }
-  });
-});
-</script>
 </body>
 </html>

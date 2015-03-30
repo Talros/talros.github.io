@@ -251,6 +251,11 @@ a:hover { color: #7299cf; }
   text-align:center;
 }
 
+.tablehover {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
 /* extra styles */
 .bigtxtfield {
   display: block;
