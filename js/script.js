@@ -28,3 +28,16 @@ $(function() {
              .toggleClass('tablehover');
       });
 });
+
+$(function() {
+  $("#sidemenu > li > div").click(function(){
+
+    if(false === $(this).next().is(':visible')) {
+        $('#sidemenu li ul').slideUp(300);
+    }
+    $(this).next().slideToggle(300);
+});
+
+$('#sidemenu ul:eq(0)').show();
+
+});
