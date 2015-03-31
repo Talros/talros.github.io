@@ -156,6 +156,10 @@ a:hover { color: #7299cf; }
   position: absolute;
 }
 
+.mapcontainer {
+  margin-right: -1000px;
+}
+
 /* side navigation */
 
 #sideheading {
