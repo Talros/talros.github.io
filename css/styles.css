@@ -142,8 +142,8 @@ a:hover { color: #7299cf; }
   border-radius: 12px;
 }
 .tooltip img {
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
   margin-bottom: 4px;
   margin-top: 4px;
 }
