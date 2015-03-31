@@ -166,12 +166,15 @@ a:hover { color: #7299cf; }
   padding-top: 3px;
   padding-bottom: 3px;
   background: #4C4C63;
-  font-size: 1.25em;
   color: #A1A1A1;
 }
 
 .sideheading div {
   cursor: pointer;
+}
+
+.sideheading div strong {
+  font-size: 1.2em;
 }
 
 .sideheading div:hover {
@@ -187,7 +190,7 @@ a:hover { color: #7299cf; }
   text-align: center;
   border-top: 1px solid #656565;
   background: #4C4C4C;
-  font-size: 1.1em; }
+  font-size: 1.2em; }
 
 .sideheading li a {
   display: block;
