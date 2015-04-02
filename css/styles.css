@@ -146,14 +146,17 @@ a:hover { color: #7299cf; }
   margin-right: 4px;
   margin-bottom: 4px;
   margin-top: 4px;
+  vertical-align: middle;
 }
 
 .tooltext {
-  font-size: 1.4em;
-  top: 33%;
-
+  font-size: 100%;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
   padding-left: 10px;
-  position: absolute;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .mapcontainer {
