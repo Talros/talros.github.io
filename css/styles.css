@@ -134,6 +134,10 @@ a:hover { color: #7299cf; }
 .warning {
   color: #FF6600;
 }
+
+.immortal {
+  color: #9900FF;
+}
 .tooltip {
   color: #BCBCBC;
   background-color: #151515;
